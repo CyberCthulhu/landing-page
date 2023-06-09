@@ -1,5 +1,9 @@
+*{
+    font-family: sans-serif;
+}
 ul{
     list-style: none;
+    font-weight: 100;
     display: flex;
     margin-right: 10px;
     gap: 16px;
@@ -8,7 +12,10 @@ ul{
 }
 
 .header{
+    padding-right: 40px;
+    padding-left: 40px;
     font-family: sans-serif;
+    font-weight: bold;
     font-size: 24px;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -19,11 +26,27 @@ ul{
 }
 
 .main{
+    flex:1;
+    display: flex;
+    padding-left: 40px;
     color: #F9FAF8;
-    padding: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #1F2937;
 }
 
-.main p{
+p{
     color: #E5E7EB;
+    margin-top: -20px;
+    padding-right: 150px;
+    font-size: 14px;
+}
+h1{
+    font-weight: bold;
+    padding-right: 200px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
 }
